@@ -1,37 +1,43 @@
-# chromium_third_party_libaddressinput
+# ![](https://github.com/google/libaddressinput/wiki/libaddressinput-icon-70x55.png) libaddressinput
 
-#### 介绍
-第三方软件libaddressinput
+[![Build Status](https://travis-ci.org/googlei18n/libaddressinput.svg?branch=master)](https://travis-ci.org/googlei18n/libaddressinput)
 
-#### 软件架构
-软件架构说明
+The _libaddressinput_ project consists of two different libraries (one
+implemented in C++, one implemented in Java for Android) that use
+[address metadata](https://github.com/google/libaddressinput/wiki/AddressValidationMetadata)
+from
+[Google](https://developers.google.com/)'s
+[Address Data Service](https://chromium-i18n.appspot.com/ssl-address/data)
+to assist application developers in collecting and handling _postal addresses_
+from all over the world.
 
+These libraries can provide information about what input fields are required for
+a correct address input form for any country in the world and can validate an
+address to highlight input errors like missing required fields or invalid
+values.
 
-#### 安装教程
+## C++
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+The C++ library (in very portable C++11) of _libaddressinput_ is used in address-related
+projects in [Chromium](http://www.chromium.org/Home).
 
-#### 使用说明
+https://chromium.googlesource.com/chromium/src/+/master/third_party/libaddressinput/
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## Java
 
-#### 参与贡献
+The Java library of _libaddressinput_ is written for use in
+[Android](https://developer.android.com/) and includes an Android UI address
+input widget ready for use, but only the UI parts are tied to Android.
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+Non-UI code and tests can be run in Java SE, and the rest of the library could
+easily be adapted to run in any Java environment.
 
+## Mailing List
 
-#### 特技
+Using and developing libaddressinput is discussed on this mailing list:
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+https://groups.google.com/forum/#!forum/libaddressinput-discuss
+
+## License
+
+Source code licensed under the Apache 2.0. Data licensed under the CC-BY 4.0
