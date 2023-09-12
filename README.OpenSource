@@ -1,6 +1,6 @@
 [
     {
-        "Name": "chromium_third_party_libaddressinput",                   # 上游开源软件名全称
+        "Name": "libaddressinput",                   # 上游开源软件名全称
         "License":         # 上游开源软件中包含的许可证信息
         "License File": "LICENSE"       # 许可证所在文件路径
         "Version Number": "3b8ee157a8f3536bbf5ad2448e9e3370463c1e40",
