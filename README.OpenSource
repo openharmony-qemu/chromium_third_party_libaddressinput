@@ -1,10 +1,10 @@
 [
     {
-        "Name": "libaddressinput",                   # 上游开源软件名全称
-        "License":         # 上游开源软件中包含的许可证信息
-        "License File": "LICENSE"       # 许可证所在文件路径
+        "Name": "libaddressinput",
+        "License": "Apache-2.0",
+        "License File": "LICENSE",
         "Version Number": "3b8ee157a8f3536bbf5ad2448e9e3370463c1e40",
-        "Upstream URL": "https://chromium.googlesource.com/external/libaddressinput.git@3b8ee157a8f3536bbf5ad2448e9e3370463c1e40",   # 上游软件包发布地址
-        "Description": "第三方软件vulkan-deps/glslang"           # 开源软件功能描述
+        "Upstream URL": "https://chromium.googlesource.com/external/libaddressinput.git@3b8ee157a8f3536bbf5ad2448e9e3370463c1e40",
+        "Description": "第三方软件vulkan-deps/glslang，新一代图形和计算 API，能够跨平台高效访问 GPU"
     }
 ]
