@@ -1,0 +1,10 @@
+[
+    {
+        "Name": "libaddressinput",
+        "License": "Apache-2.0",
+        "License File": "LICENSE",
+        "Version Number": "3b8ee157a8f3536bbf5ad2448e9e3370463c1e40",
+        "Upstream URL": "https://chromium.googlesource.com/external/libaddressinput.git@3b8ee157a8f3536bbf5ad2448e9e3370463c1e40",
+        "Description": "第三方软件vulkan-deps/glslang，新一代图形和计算 API，能够跨平台高效访问 GPU"
+    }
+]
