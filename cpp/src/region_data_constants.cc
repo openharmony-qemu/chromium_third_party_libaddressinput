@@ -29,6 +29,7 @@
 #include "format_element.h"
 #include "lookup_key.h"
 #include "util/size.h"
+#include "arkweb/build/features/features.h"
 
 namespace i18n {
 namespace addressinput {
